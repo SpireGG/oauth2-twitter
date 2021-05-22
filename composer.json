@@ -1,0 +1,19 @@
+{
+    "name": "spiregg/oauth2-twitter",
+    "description": "A Twitter provider for league/oauth2-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Temenides",
+            "email": "chypriote@lolpros.gg"
+        }
+    ],
+    "require": {
+        "league/oauth2-client": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpireGG\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
